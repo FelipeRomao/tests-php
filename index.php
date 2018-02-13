@@ -39,7 +39,22 @@
 		<br />
 		<button class="btn btn-outline-success">MOSTRAR A TABUADA</button>
 	</form>
+	<br />
+	<br />
+	<pre>
+		<?php
+			$a = array(2,3,5,6,7);
+			$a[] = 10;
+			print_r($a);
 
-	
+			$b = range(5, 20, 5);
+			print_r($b);
+
+			$c = range(1, 30, 2);
+			foreach($c as $contador){
+				echo "$contador". "<br />";
+			}
+		 ?>
+	 </pre>
 </body>
 </html>
