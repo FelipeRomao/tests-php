@@ -54,6 +54,17 @@
 			foreach($c as $contador){
 				echo "$contador". "<br />";
 			}
+
+			$d = array(1,2,3,4);
+			print_r($d). "<br />";
+			array_pop($d);
+			print_r($d). "<br />";
+			array_push($d, 5);
+			print_r($d);
+			array_shift($d);
+			print_r($d);
+			array_unshift($d, 9);
+			print_r($d);
 		 ?>
 	 </pre>
 </body>
